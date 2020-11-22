@@ -33,6 +33,7 @@ bash scan_n_montor.sh
 <br>
 Alternatively pip install -r requirements.txt 
 <br>
+<br>
 python setup.py
 
 # To-Do List 
