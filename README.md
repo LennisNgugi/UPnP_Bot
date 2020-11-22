@@ -11,10 +11,6 @@ As a proof of concept of how a malicious user could exploit a poorly configured 
 | Monitor ports  | Scan ports 2323/TCP, 23/TCP and 4810/TCP | 
 
 
-|  Functionaility  | Description |
-| ------------- | ------------- |
-| Scan   | Scan to discover all UPnP/DLNA services within multicast range  |
-
 The method used to play media content on a targeted IoT device for instance a Smart TV required several steps to be taken, firstly carrying out a SSDP M-Search broadcast to discover available services on a network, followed by setting up a local HTTP server that would be used to send a SETAVTransportURL containing a http url of a media that is sent to the victim’s IoT device. To play the media file that has been sent, for that point the attacker is able to display media on the victims IoT device. In addition, the attacker is also able to send a Denial of Service (DoS) attack, 
 in the past similar attacks have been carried out, for instance for a Smart TV such as a Samsung TV the exploit CVE-2013-4890 could be used to send a long URI to port 5600. Alternatively, large http traffic could also be sent to the victim’s IoT device in an attempt to DoS the victim’s IoT device.  
 
