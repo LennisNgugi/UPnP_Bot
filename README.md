@@ -5,7 +5,6 @@ As a proof of concept of how a malicious user could exploit a poorly configured 
 | Functionaility | Description  | 
 | ------------- | ------------- |
 | Scan           | Scan to discover all UPnP/DLNA services within multicast range | 
-| ------------- | ------------- |
 | Play           | Send media content via HTTP server to local IoT device             (Television set) | 
 | ------------- | ------------- |
 | DoS            | Send large numbers of pings to the specified local IoT IP address | 
