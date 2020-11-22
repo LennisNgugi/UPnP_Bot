@@ -17,7 +17,7 @@ in the past similar attacks have been carried out, for instance for a Smart TV s
 
 # Usage 
 
-bash scan_n_montor.sh
+bash UPnP_Bot.sh
 
 # Requirements 
 
