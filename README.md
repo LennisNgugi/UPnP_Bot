@@ -21,8 +21,6 @@ bash UPnP_Bot.sh
 
 # Requirements 
 
-<br>
-<br>
 python setup.py
 
 # To-Do List 
