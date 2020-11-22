@@ -3,10 +3,15 @@
 As a proof of concept of how a malicious user could exploit a poorly configured router, that uses default credentials using the networking protocol UPnP often used in IoT devices such as routers and other essential devices. Research was carried out using the search engine Shodan which revealed that over 12,000 routes open on the internet used default credentials, to illustrate the vulnerability. A bot called UPnP_Bot was developed with several automated functions, firstly the ability to scan to discover all UPnP services within multicast range, capture and monitor on going traffic from local IoT devices. Using the Mirai bot as an example several ports were scanned firstly 2323/TCP, 23/TCP in order to monitor for attempts to gain unauthorised control and port 48101 looking for infected devices often attempt to spread malware by using the port. In addition, the application also enables the automated playing of media content the likes of jpg, png, mp3, mp4 and mov. In order to create the testing framework various kinds of functionalities requirements were outlined. 
 
 | Functionaility | Description  | 
+| ------------- | ------------- |
 | Scan           | Scan to discover all UPnP/DLNA services within multicast range | 
+| ------------- | ------------- |
 | Play           | Send media content via HTTP server to local IoT device             (Television set) | 
+| ------------- | ------------- |
 | DoS            | Send large numbers of pings to the specified local IoT IP address | 
+| ------------- | ------------- |
 | Live Traffic TCP capture | Capture packets and monitor all ongoing traffic from local network using tshark | 
+| ------------- | ------------- |
 | Monitor ports  | Scan ports 2323/TCP, 23/TCP and 4810/TCP | 
 
 
