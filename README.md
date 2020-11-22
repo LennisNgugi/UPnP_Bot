@@ -28,6 +28,7 @@ bash scan_n_montor.sh
 <li>pip install sys</li>
 <li>pip install socket</li>
 <li>pip install threading</li>
+
 Alternatively pip install -r requirements.txt 
 
 # To-Do List 
