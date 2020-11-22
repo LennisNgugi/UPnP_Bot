@@ -32,7 +32,7 @@ bash scan_n_montor.sh
 <li>pip install threading</li>
 <br>
 Alternatively pip install -r requirements.txt 
-
+<br>
 python setup.py
 
 # To-Do List 
