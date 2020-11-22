@@ -6,11 +6,8 @@ As a proof of concept of how a malicious user could exploit a poorly configured 
 | ------------- | ------------- |
 | Scan           | Scan to discover all UPnP/DLNA services within multicast range | 
 | Play           | Send media content via HTTP server to local IoT device             (Television set) | 
-| ------------- | ------------- |
 | DoS            | Send large numbers of pings to the specified local IoT IP address | 
-| ------------- | ------------- |
 | Live Traffic TCP capture | Capture packets and monitor all ongoing traffic from local network using tshark | 
-| ------------- | ------------- |
 | Monitor ports  | Scan ports 2323/TCP, 23/TCP and 4810/TCP | 
 
 
