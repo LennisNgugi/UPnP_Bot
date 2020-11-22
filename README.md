@@ -21,17 +21,6 @@ bash UPnP_Bot.sh
 
 # Requirements 
 
-<li>pip install setup</li>
-<li>pip install re</li>
-<li>pip install sys</li>
-<li>pip install argparse</li>
-<li>pip install json</li>
-<li>pip install os</li>
-<li>pip install sys</li>
-<li>pip install socket</li>
-<li>pip install threading</li>
-<br>
-Alternatively pip install -r requirements.txt 
 <br>
 <br>
 python setup.py
