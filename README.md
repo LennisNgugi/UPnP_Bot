@@ -19,15 +19,15 @@ bash scan_n_montor.sh
 
 # Requirements 
 
-pip install setup
-pip install re
-pip install sys
-pip install argparse
-pip install json
-pip install os
-pip install sys
-pip install socket
-pip install threading
+<li>pip install setup</li>
+<li>pip install re</li>
+<li>pip install sys</li>
+<li>pip install argparse</li>
+<li>pip install json</li>
+<li>pip install os</li>
+<li>pip install sys</li>
+<li>pip install socket</li>
+<li>pip install threading</li>
 Alternatively pip install -r requirements.txt 
 
 # To-Do List 
